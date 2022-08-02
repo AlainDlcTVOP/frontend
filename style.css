@@ -9,13 +9,14 @@ body {
     background-color: white;
 }
 .container{
+   
     display: block;
     margin: auto;
     padding-top: 8px;
     border-radius: 5px;
     background-color: lightsteelblue;
   width: 40%;
-  border: 2px solid rgb(0, 128, 115);
+
   display:block;
  
   
@@ -23,3 +24,46 @@ body {
 #buttom {
     margin-top: 20px;
 }
+.headlines  {
+    border: 1px solid black;
+    display: flex;
+   
+    background-color: lightsteelblue;
+  
+ 
+}
+
+
+nav{
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+nav ol {
+ 
+    display: flex;
+   
+   
+} 
+nav li  {
+    
+    text-align: center;
+    margin: 0 100px;
+}
+nav p {
+    
+    text-align: center;
+   
+}
+
+#log{
+   
+    margin-left: auto;
+  
+
+  
+}
+
+
+    
+  
