@@ -6,6 +6,9 @@ html, body {
 	float: none !important; 
    
 }
+h1 {
+    font-weight: bold;
+}
 
 
 
