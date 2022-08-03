@@ -1,9 +1,25 @@
+html, body {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+h1 {
+    margin:0;
+}
+
+
 
  #padd {
 padding: 20px;
 }
-body {
-    background-color: lightsteelblue;
+
+#bord {
+    flex: auto;
+   justify-items: auto;
+    border: 1px solid black;
+    background-color: white;
+   
+    
 }
 #login{
     background-color: white;
@@ -15,7 +31,7 @@ body {
     padding-top: 8px;
     border-radius: 5px;
     background-color: lightsteelblue;
-  width: 40%;
+    width: 40%;
 
   display:block;
  
@@ -24,9 +40,10 @@ body {
 #buttom {
     margin-top: 20px;
 }
-.headlines  {
+ .headlines  {
     border: 1px solid black;
     display: flex;
+    width: 100%;
    
     background-color: lightsteelblue;
   
@@ -47,7 +64,7 @@ nav ol {
 } 
 nav li  {
     
-    text-align: center;
+   
     margin: 0 100px;
 }
 nav p {
@@ -63,6 +80,60 @@ nav p {
 
   
 }
+#footer {
+   
+    position:relative;  top:800px;
+    background-color: blueviolet;
+    width:100% !important;
+   height: 100%;
+  position:absolute !important; 
+  justify-content: center;  
+   
+}
+span{
+   display: flex;
+   justify-content: center;
+}
+#main-header {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 30%;
+    position:relative; left:30px; top:40px;
+}
+#subtex {
+    position:relative; left:30px; top:50px;
+   background-color: aqua;
+  
+    border: 1px solid black;
+    width: 50%;
+
+
+
+}
+#article1{
+    position:relative; left:30px; top:60px;
+    background-color: aqua;
+   
+     border: 1px solid black;
+     width: 20%;
+    
+}
+#article2 {
+   
+    position:relative; left:31.6%;     top: -91px;
+    background-color: aqua; 
+     border: 1px solid black;
+     width: 20%;
+}
+
+#aside {
+  
+   position:relative;     left: 1112px;     top: -508px;
+    background-color: rgb(255, 0, 47); 
+     border: 1px solid black;
+     width: 100%;
+}
+
 
 
     
