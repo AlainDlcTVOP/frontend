@@ -18,6 +18,8 @@ header {
 
 }
 
+
+
  #padd {
 padding: 20px;
 }
@@ -112,7 +114,7 @@ span{
 #subtex {
     position:relative; left:30px; top:50px;
    background-color: aqua;
-  
+   border-radius: 5px;
     border: 1px solid black;
     width: 50%;
 
@@ -121,18 +123,19 @@ span{
 }
 #article1{
     position:relative; left:30px; top:60px;
-    background-color: aqua;
    
      border: 1px solid black;
      width: 20%;
+     background-color: aqua; 
     
 }
 #article2 {
-   
     position:relative; left:31.6%;     top: -91px;
+    
     background-color: aqua; 
      border: 1px solid black;
      width: 20%;
+    
 }
 
 #aside {
