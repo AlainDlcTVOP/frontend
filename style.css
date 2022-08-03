@@ -1,13 +1,15 @@
 html, body {
     margin:0;
     padding:0;
-    overflow: hidden;
-}
-h1 {
-    margin:0;
+    max-width: 1024px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+   
 }
 
-header {
+
+
+header  {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -19,11 +21,6 @@ header {
 }
 
 
-
- #padd {
-padding: 20px;
-}
-
 #bord {
     flex: auto;
    justify-items: auto;
@@ -32,9 +29,7 @@ padding: 20px;
    
     
 }
-#login{
-    background-color: white;
-}
+
 .container{
    
     display: block;
@@ -61,44 +56,35 @@ padding: 20px;
  
 }
 
-
-nav{
+nav {
     border: 1px solid black;
     background-color: lightgreen;
 }
-
-nav ol {
- 
+nav > ol {
     display: flex;
-   
-   
-} 
-nav li  {
-    
-   
-    margin: 0 100px;
-}
-nav p {
-    
-    text-align: center;
-   
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    justify-content: center;
+
+    padding: 10px;
 }
 
-#log{
-   
-    margin-left: auto;
-  
-
-  
+nav > ol > li {
+    padding: 0 20px;
 }
+
+
+
 #footer {
    
-    position:relative;  top:800px;
-    background-color: blueviolet;
-    width:100% !important;
-   height: 100%;
-  position:absolute !important; 
-  justify-content: center;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(230, 30%, 10%);
+    color: white;
+   
+    padding: 40px 0 120px 0;
    
 }
 span{
@@ -106,31 +92,33 @@ span{
    justify-content: center;
 }
 #main-header {
-    background-color: aqua;
+   
+    display: grid; 
+    gap: 10px;
+    background-color: aqua; 
     border: 1px solid black;
+   
     width: 30%;
-    position:relative; left:30px; top:40px;
 }
 #subtex {
-    position:relative; left:30px; top:50px;
-   background-color: aqua;
-   border-radius: 5px;
+    display: grid; 
+    gap: 10px;
+    background-color: aqua; 
     border: 1px solid black;
     width: 50%;
-
-
-
+    margin-top: 30px;
 }
 #article1{
-    position:relative; left:30px; top:60px;
-   
-     border: 1px solid black;
-     width: 20%;
-     background-color: aqua; 
+    display: grid; 
+    gap: 10px;
+    background-color: aqua; 
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 30px;
     
 }
 #article2 {
-    position:relative; left:31.6%;     top: -91px;
+    position:relative; left:30%;     top: -227px;
     
     background-color: aqua; 
      border: 1px solid black;
@@ -138,15 +126,22 @@ span{
     
 }
 
-#aside {
-  
-   position:relative;     left: 1112px;     top: -508px;
+  #aside {
+    
+  display: flex;
+  margin-left: auto;
+  margin-top: -700px;
     background-color: rgb(255, 0, 47); 
      border: 1px solid black;
-     width: 100%;
+     width: 40%;
+     margin-bottom: 40px;
+   
 }
 
 li:hover {
     background-color: rgb(255, 0, 217);
     border-radius: 7px;
-  }
+  }span{
+    display: flex;
+    justify-content: center;
+ }
