@@ -7,7 +7,16 @@ h1 {
     margin:0;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:rgb(191, 192, 228);
+    color: white;
+    position: sticky;
+    top: 0;
 
+}
 
  #padd {
 padding: 20px;
@@ -134,7 +143,3 @@ span{
      width: 100%;
 }
 
-
-
-    
-  
