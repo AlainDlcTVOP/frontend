@@ -146,3 +146,7 @@ span{
      width: 100%;
 }
 
+li:hover {
+    background-color: rgb(255, 0, 217);
+    border-radius: 7px;
+  }
