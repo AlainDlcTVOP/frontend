@@ -1,39 +1,50 @@
-<body id="login">
-<form action="/index.html">
- <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TVOP536 BIKES</title>
+</head>
 
- <header>
- <img src="bull.png" alt="Logo" width="250px" height="150px">
+
+<body>
+ 
+<header>
+ <img src="bull.png" alt="Logo" width="130px" height="170px">
  <nav>
     <ol>
-        <b><li><a href="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/th_2020_Ninja%20650_BK1_STU%20(1).002.jpg">Kawasaki</a></li></b>
-        <b><li><a href="https://www.motostop.eu/productimages/20870/69516.jpg">Agusta brutale</a></li></b>
-        <b><li><a href="https://i0.wp.com/www.bike.se/wp-content/uploads/2019/11/195877_2020_HONDA_CBR1000RR-R.jpg?fit=584%2C437&ssl=1">Honda</a></li></b>
+        <li><a href="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/th_2020_Ninja%20650_BK1_STU%20(1).002.jpg">Kawasaki</a></li>
+        <li><a href="https://www.motostop.eu/productimages/20870/69516.jpg">Agusta brutale</a></li>
+       <li><a href="https://i0.wp.com/www.bike.se/wp-content/uploads/2019/11/195877_2020_HONDA_CBR1000RR-R.jpg?fit=584%2C437&ssl=1">Honda</a></li>
     </ol>    
   </nav>
       <h1 id="log"><a href="https://www.bikewale.com/">Index</a></h1>
-    </header>
+  </header>
+    <div>
     <h1><b><p id="main-header">WELCOME TO DLC BIKES</p></b></h1>
+  </div>
     <div id="subtex">
+      <form action="/index.html">
       <label for="uname"></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
-      <br>
+      
       <label for="psw"></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
-     <br>
-     <div id="buttom">
-   <button type="submit" >Sign in</button>   
-      <input type="reset" value="Reset">
+    
+     <div class="button" >
+   <button  id="buttonGreen"type="submit" >Sign in</button>   
+      <input type="reset" id="buttonRed" value="Reset">
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label> 
-    <br> 
+    </form>
 </div>
 </div>
-
 <div id="footer">
   <footer ><span>@Alain De La Cuadra<span></footer>
 </div>
   </body>
-  </form>
+ 
